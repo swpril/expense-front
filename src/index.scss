@@ -1,0 +1,123 @@
+@import './variables';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Overpass', sans-serif !important;
+  padding: 0;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+/* fonts weights */
+.font {
+  &-thin {
+    font-weight: $thin !important;
+  }
+  &-extralight {
+    font-weight: $extralight !important;
+  }
+  &-light {
+    font-weight: $light !important;
+  }
+  &-normal {
+    font-weight: $normal !important;
+  }
+  &-medium {
+    font-weight: $medium !important;
+  }
+  &-semi-bold {
+    font-weight: $semibold !important;
+  }
+  &-bold {
+    font-weight: $bold !important;
+  }
+  &-extrabold {
+    font-weight: $extrabold !important;
+  }
+}
+
+/* font-sizes */
+.text {
+  &-xs {
+    font-size: $text-xs !important;
+  }
+  &-sm {
+    font-size: $text-sm !important;
+  }
+  &-base {
+    font-size: $text-base !important;
+  }
+  &-lg {
+    font-size: $text-lg !important;
+  }
+  &-xl {
+    font-size: $text-xl !important;
+  }
+  &-2xl {
+    font-size: $text-2xl !important;
+  }
+  &-3xl {
+    font-size: $text-3xl !important;
+  }
+  &-4xl {
+    font-size: $text-4xl !important;
+  }
+  &-5xl {
+    font-size: $text-5xl !important;
+  }
+
+  &-red {
+    color: red !important;
+  }
+
+  &-italic {
+    font-style: italic !important;
+  }
+
+  @media screen and (min-width: 1300px) {
+    &-xs {
+      font-size: $text-sm !important;
+    }
+    &-sm {
+      font-size: $text-base !important;
+    }
+    &-base {
+      font-size: $text-lg !important;
+    }
+    &-lg {
+      font-size: $text-xl !important;
+    }
+    &-xl {
+      font-size: $text-2xl !important;
+    }
+    &-2xl {
+      font-size: $text-3xl !important;
+    }
+    &-3xl {
+      font-size: $text-4xl !important;
+    }
+    &-4xl {
+      font-size: $text-5xl !important;
+    }
+  }
+
+  /* styles */
+
+  &-italic {
+    font-style: italic !important;
+  }
+}
